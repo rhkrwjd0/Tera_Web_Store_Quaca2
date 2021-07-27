@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+/***** default *****/
+body:not(.mod-pace-custom) .pace .pace-progress {height:2px; background:#333;}
+.panel-hdr {margin:0 20px; border-bottom:0;}
+.panel-hdr > :first-child,
+.panel-hdr h2:not(:only-child) {padding-left: 0; margin-right:0;}
+
+
+/***** layout *****/
+.hidden-md-down {
+    display: none;
+}
+.hidden-md-down.dropdown-icon-menu {
+    display: block;
+}
+.alert-primary {
+	background-color: #f8f8f8;
+	border-color: #ececec;
+}
+.shortcut-menu {
+	bottom: 2.0rem;
+}
+
+
+/***** table *****/
+.dataTables_info {font-size:12px;}
+.table-bordered thead th, 
+.table-bordered thead td {border-bottom-width: 1px;}
+.dataTables_wrapper tr.child td.child .dtr-details:after {background: #999!important;}
+.dataTables_wrapper tr.child td.child .dtr-details:before {color: #333!important;}
+.dataTables_wrapper div.dataTables_paginate {margin-top: 25px!important;}
+
+
+
+/***** full calendar *****/
+.fc .fc-other-month {background-color: #fff;}
+.fc .fc-toolbar h2 {font-size:18px; padding-bottom:0; border:0;}
+.fc .fc-event {background:#f8f8f8; border-color:transparent;}
+.fc .fc-dayGrid-view .fc-day-top .fc-day-number {padding-right: 0.3rem;}
+.fc .fc-day-grid-event .fc-content {font-size:11.5px; padding:0.25rem 0.3rem;}
+.fc td.fc-today {background-color:#fdfae3; font-weight: 500; color: #444;}
+.fc td.fc-today-sales a {background:#f9f0b3;} 
+
+
+/***** modal *****/
+.modal-content {border-radius:7px;}
+.modal-open .page-content .modal {position:fixed; top:50%; left:50%; transform: translate(-50%, -50%); margin-left:8.438rem; height:auto; padding-right:0!important}
+.modal-open.nav-function-hidden .page-content .modal {margin-left:0;}
+.modal-open .page-content .modal-title {font-size:28px; color:#222; letter-spacing:-0.5;}
+.modal-open .page-content .modal-title b {font-weight: 500;}
+@media only screen and (max-width: 992px) {
+	.modal-open .panel-container .modal {margin-left:0;}
+}
+
+
+/***** form group *****/
+.form-group {margin-bottom: 0.5rem;}
+.empty {width:100%; margin: 0!important; padding: 10px; text-align:center;}
+
+
+/***** dashboard *****/
+.dashboard .info-point .point {background:#fff; padding: 1.2rem 1.5rem 1.5rem!important;}
+.dashboard .info-point .point h3 {color:#222; font-size:2rem; letter-spacing: -0.8px;}
+.dashboard .panel-hdr .panel-toolbar {display:none;}
+
